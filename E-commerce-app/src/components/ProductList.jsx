@@ -11,7 +11,7 @@ const ProductList= () => {
     },[dispatch]);
 
     const handleAddToCart=(product)=>{
-        dispatch(addToCart(product));
+        dispatch(addToCart(product));       
     };
     if (loading){
         return(
